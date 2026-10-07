@@ -1,6 +1,11 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
+  "title": "Categorical processing of Chinese lexical tone: ECoG auditory oddball in 6 epilepsy patients (Si, Zhou & Hong 2017)",
+  "description": "Electrocorticography (ECoG) recordings from six patients with medically intractable epilepsy who passively listened to a two-deviant auditory oddball sequence of synthesized Mandarin /i/ syllables. The standard was a level tone (T1), and the two deviants were a cross-category rising tone (T2) and a within-category level tone, each equidistant from the standard. The dataset supports investigation of the cortical network underlying categorical processing of Chinese lexical tone. It is organized in iEEG-BIDS without signal processing.",
+  "methods_description": "ECoG was recorded with subdural surface grids, placed by clinical need only, using a g.USBamp amplifier at 1200 Hz with a 0.1 Hz high-pass filter and a 50 Hz notch. Stimuli were presented in an oddball paradigm of 500 trials (250 for S6) with an onset-to-onset interval of 1100 ms and 5% jitter, while patients watched a silent movie. Triggers were recorded on a dedicated channel and decoded into events.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
   "authors": {
     "Xiaopeng Si": {
       "orcid": "0000-0002-8956-7577",
@@ -20,6 +25,31 @@
       ]
     }
   },
+  "keywords": [
+    {
+      "term": "electrocorticography"
+    },
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "lexical tone"
+    },
+    {
+      "term": "categorical perception"
+    },
+    {
+      "term": "auditory oddball"
+    },
+    {
+      "term": "mismatch negativity"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.926082",
@@ -45,8 +75,7 @@
   "funding_references": [
     {
       "funder_name": "National Natural Science Foundation of China",
-      "award_number": "61621136008",
-      "award_title": "Crossmodal Learning (NSFC/DFG TRR-169)"
+      "award_number": "61621136008"
     },
     {
       "funder_name": "German Research Foundation (DFG)",
@@ -62,14 +91,11 @@
       "award_number": "2017YFA0205904"
     }
   ],
-  "title": "Categorical processing of Chinese lexical tone: ECoG auditory oddball in 6 epilepsy patients (Si, Zhou & Hong 2017)",
-  "license": "CC-BY-4.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "995 MB (9 files)"
   ],
@@ -81,35 +107,5 @@
     ".wav",
     ".yml"
   ],
-  "description": "Electrocorticography (ECoG) recordings from six patients with medically intractable epilepsy who passively listened to a two-deviant auditory oddball sequence of synthesized Mandarin syllables. The tone continuum allowed comparison of a cross-category deviant (rising vs level tone) with a within-category deviant at equal physical distance from the standard, probing categorical processing of Chinese lexical tone. Data are provided in iEEG-BIDS format without signal processing.",
-  "methods_description": "ECoG was recorded at 1200 Hz with 96 ECoG inputs and 6 trigger inputs per file while patients watched a silent movie. A synthesized rising-level-falling tone continuum of Mandarin /i/ was used, with token 5 (level tone T1) as the frequent standard and tokens 2 (rising T2) and 8 (level T1) as infrequent deviants. There were 500 trials (250 for S6), with a 1100 ms onset-to-onset interval and 5% jitter. Electrode placement was determined by clinical need only. Note: the source release does not document the trigger event codes; the mapping of codes 1/2/3 to standard / cross-category deviant / within-category deviant is inferred from stimulus file names and code frequencies.",
-  "keywords": [
-    {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "ECoG"
-    },
-    {
-      "term": "iEEG"
-    },
-    {
-      "term": "lexical tone"
-    },
-    {
-      "term": "categorical perception"
-    },
-    {
-      "term": "auditory oddball"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "Mandarin"
-    }
-  ],
-  "source_hash": "235284534cb9a2cf34377934ea5f612020d73eedf50f47a2b1f40cea1faac56e"
+  "source_hash": "95bbe9e190efd3c049aba8585f0e46c5093c5c77b541b8d6e6b5edddd3217f4f"
 }
