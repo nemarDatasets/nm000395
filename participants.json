@@ -3,16 +3,46 @@
     "Description": "Patient label in the release (S1..S6)"
   },
   "age": {
-    "Description": "Not included in the release (n/a)",
-    "Units": "year"
+    "Description": "Age in years",
+    "Units": "year",
+    "Source": "doi:10.1073/pnas.1710752114, PNAS SI Appendix (pnas.201710752SI.pdf, via Europe PMC PMC5699060 supplementaryFiles), Table S2 'Clinical profiles of the subjects'"
   },
   "sex": {
-    "Description": "Not included in the release (n/a)"
+    "Description": "M/F",
+    "Source": "doi:10.1073/pnas.1710752114, PNAS SI Appendix (pnas.201710752SI.pdf, via Europe PMC PMC5699060 supplementaryFiles), Table S2 'Clinical profiles of the subjects'",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
   },
   "group": {
     "Description": "Participant group",
     "Levels": {
       "epilepsy_patient": "medically intractable epilepsy patient with subdural electrodes (Yuquan Hospital, Tsinghua University)"
     }
+  },
+  "handedness": {
+    "Description": "L/R ('Hand' column)",
+    "Source": "doi:10.1073/pnas.1710752114, PNAS SI Appendix (pnas.201710752SI.pdf, via Europe PMC PMC5699060 supplementaryFiles), Table S2 'Clinical profiles of the subjects'",
+    "Levels": {
+      "R": "right",
+      "L": "left"
+    }
+  },
+  "soz_or_focus": {
+    "Description": "Seizure focus (abbreviation as in Table S2, expanded per its footnote)",
+    "Source": "doi:10.1073/pnas.1710752114, PNAS SI Appendix (pnas.201710752SI.pdf, via Europe PMC PMC5699060 supplementaryFiles), Table S2 'Clinical profiles of the subjects'"
+  },
+  "implant_type": {
+    "Description": "Electrode type",
+    "Source": "doi:10.1073/pnas.1710752114, Methods 'Subjects': 'Six patients (S1-S6) with surface electrode coverage'; Fig. 3A 'grid electrode coverage'"
+  },
+  "implanted_hemisphere": {
+    "Description": "Hemisphere of grid coverage, derived from the L/R prefix of every grid location in Table S2 (all locations of a subject are on one side)",
+    "Source": "doi:10.1073/pnas.1710752114, PNAS SI Appendix (pnas.201710752SI.pdf, via Europe PMC PMC5699060 supplementaryFiles), Table S2 'Clinical profiles of the subjects'"
+  },
+  "regions_sampled": {
+    "Description": "Grid locations (lobes) verbatim from Table S2, expanded per its footnote",
+    "Source": "doi:10.1073/pnas.1710752114, PNAS SI Appendix (pnas.201710752SI.pdf, via Europe PMC PMC5699060 supplementaryFiles), Table S2 'Clinical profiles of the subjects'"
   }
 }

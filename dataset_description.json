@@ -8,7 +8,7 @@
   "HowToAcknowledge": "Please cite Si X, Zhou W, Hong B (2017) Cooperative cortical network for categorical processing of Chinese lexical tone. Proc Natl Acad Sci USA 114(46):12303-12308, doi:10.1073/pnas.1710752114, and the data record doi:10.5281/zenodo.926082.",
   "Funding": ["National Natural Science Foundation of China (NSFC) and German Research Foundation (DFG), project Crossmodal Learning, NSFC 61621136008 / DFG TRR-169 (to B.H.)", "NSFC 61473169 (to B.H.)", "National Key R&D Program of China 2017YFA0205904 (to B.H.)"],
   "EthicsApprovals": ["Ethics Committees of the Yuquan Hospital, Tsinghua University (as stated in Si et al. 2017)"],
-  "ReferencesAndLinks": ["https://doi.org/10.1073/pnas.1710752114", "https://doi.org/10.5281/zenodo.926082"],
+  "ReferencesAndLinks": ["https://doi.org/10.1073/pnas.1710752114", "https://doi.org/10.5281/zenodo.926082", "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5699060/"],
   "SourceDatasets": [{"DOI": "doi:10.5281/zenodo.926082", "URL": "https://zenodo.org/records/926082", "Version": "published 2017-10-19"}],
   "GeneratedBy": [{"Name": "b3w1_convert_sitone.py (ieeg-nemar-20261005 campaign, batch 3)", "Description": "File copy, EDF start-date day set to 01, events decoded from the trigger channel, BIDS sidecars. No signal processing."}]
 }

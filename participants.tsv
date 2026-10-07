@@ -1,7 +1,7 @@
-participant_id	source_id	age	sex	group
-sub-01	S1	n/a	n/a	epilepsy_patient
-sub-02	S2	n/a	n/a	epilepsy_patient
-sub-03	S3	n/a	n/a	epilepsy_patient
-sub-04	S4	n/a	n/a	epilepsy_patient
-sub-05	S5	n/a	n/a	epilepsy_patient
-sub-06	S6	n/a	n/a	epilepsy_patient
+participant_id	source_id	age	sex	group	handedness	soz_or_focus	implant_type	implanted_hemisphere	regions_sampled
+sub-01	S1	32	M	epilepsy_patient	L	Lf (left frontal)	ECoG	L	Lt (left temporal); Lf (left frontal); Lp (left parietal)
+sub-02	S2	26	F	epilepsy_patient	R	Lt (left temporal)	ECoG	L	Lt (left temporal); Lf (left frontal); Lo (left occipital)
+sub-03	S3	22	M	epilepsy_patient	R	Lo (left occipital)	ECoG	L	Lt (left temporal); Lp (left parietal); Lo (left occipital)
+sub-04	S4	48	F	epilepsy_patient	R	Ro (right occipital)	ECoG	R	Rt (right temporal); Ro (right occipital)
+sub-05	S5	31	M	epilepsy_patient	R	Rt (right temporal)	ECoG	R	Rt (right temporal); Rf (right frontal); Rp (right parietal)
+sub-06	S6	23	M	epilepsy_patient	R	Rf (right frontal)	ECoG	R	Rt (right temporal); Rf (right frontal); Rp (right parietal)
