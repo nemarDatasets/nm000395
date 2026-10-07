@@ -1,0 +1,15 @@
+{
+  "sample": {
+    "Description": "Sample index (0-based) of the trigger-code onset"
+  },
+  "duration": {
+    "Description": "Length of the trigger pulse on the Amp1-trigger channel",
+    "Units": "s"
+  },
+  "trigger_code": {
+    "Description": "Digital value of the Amp1-trigger channel during the pulse (physical value converted back with the EDF header scaling). The release does not document the code-to-stimulus mapping. Code 1 is by far the most frequent (about 80% of pulses), consistent with the standard. The stimulus files in stimuli/stimuli_ECoG_MMN are numbered 01standard_flat_yi5, 02deviant_cross_rise_yi2 and 03deviant_within_flat_yi8, which suggests codes 1/2/3 = standard / cross-category deviant / within-category deviant; this is an inference, not stated by the authors. Code 255 (all bits set) appears in a few runs and is not explained."
+  },
+  "trial_type": {
+    "Description": "trigger_code_<value>"
+  }
+}

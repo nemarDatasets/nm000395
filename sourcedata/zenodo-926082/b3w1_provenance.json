@@ -1,0 +1,225 @@
+{
+  "source": "https://doi.org/10.5281/zenodo.926082",
+  "edf": [
+    {
+      "bids": "sub-01/ieeg/sub-01_task-toneoddball_ieeg.edf",
+      "source": "data_ECoG/S1/ECoG_S1.edf",
+      "sha256_source_file": "cb962d8fd87aef262dac820f6c6c6f0f2fcb99fde952c297eb05dbcf37d09295",
+      "sha256_bids_file": "283747a85b29bc8c1b78606cd41a0966c0960c6af0a8fc9f800c8ef2794624d5",
+      "data_section_sha256_equal": true,
+      "header_change": "start-date day -> 01",
+      "n_signals": 102,
+      "sfreq": 1200.0,
+      "duration_s": 685.0,
+      "events_by_trigger_code": {
+        "1": 440,
+        "2": 55,
+        "3": 55,
+        "255": 1
+      },
+      "baseline_code": 0
+    },
+    {
+      "bids": "sub-02/ieeg/sub-02_task-toneoddball_run-1_ieeg.edf",
+      "source": "data_ECoG/S2/ECoG_S2_part1.edf",
+      "sha256_source_file": "6e78e5dfe793b508c0021181381064c55a64b67899117778bda90826fb59552b",
+      "sha256_bids_file": "309bde10e33d143f58bb2393476865d5f666048956c17d4107ef59fa99bfbf9c",
+      "data_section_sha256_equal": true,
+      "header_change": "start-date day -> 01",
+      "n_signals": 102,
+      "sfreq": 1200.0,
+      "duration_s": 443.0,
+      "events_by_trigger_code": {
+        "1": 200,
+        "2": 25,
+        "3": 25,
+        "255": 1
+      },
+      "baseline_code": 0
+    },
+    {
+      "bids": "sub-02/ieeg/sub-02_task-toneoddball_run-2_ieeg.edf",
+      "source": "data_ECoG/S2/ECoG_S2_part2.edf",
+      "sha256_source_file": "6bcf9a8d967195cda30fe57115a7262f94141cbf1245ff7863cba649af32a590",
+      "sha256_bids_file": "9ae274b5660aec6f1bbbae7bcfd5649704e0905060496db1cd621fddfe35a0da",
+      "data_section_sha256_equal": true,
+      "header_change": "start-date day -> 01",
+      "n_signals": 102,
+      "sfreq": 1200.0,
+      "duration_s": 405.0,
+      "events_by_trigger_code": {
+        "1": 200,
+        "2": 25,
+        "3": 25,
+        "255": 1
+      },
+      "baseline_code": 0
+    },
+    {
+      "bids": "sub-03/ieeg/sub-03_task-toneoddball_ieeg.edf",
+      "source": "data_ECoG/S3/ECoG_S3.edf",
+      "sha256_source_file": "3a2d391b7bdf75d9fc432a9f2a57c82597e265ab0c3bd7c0b7f066b535be7336",
+      "sha256_bids_file": "3f70e1ba6fcfde3a9dc8de3462cc6ca2ce0c1e62f304d38d3c0babf9b4466e68",
+      "data_section_sha256_equal": true,
+      "header_change": "start-date day -> 01",
+      "n_signals": 102,
+      "sfreq": 1200.0,
+      "duration_s": 680.0,
+      "events_by_trigger_code": {
+        "1": 440,
+        "2": 55,
+        "3": 55
+      },
+      "baseline_code": 0
+    },
+    {
+      "bids": "sub-04/ieeg/sub-04_task-toneoddball_ieeg.edf",
+      "source": "data_ECoG/S4/ECoG_S4.edf",
+      "sha256_source_file": "463d38ea6f7730d83d8a0c4e91a104fcd79cd246b91c5e199e28724f014457ae",
+      "sha256_bids_file": "6ef6a95f4f05cbc05788ebf95045e8f72994268c61791e88eb3ebf4d85405857",
+      "data_section_sha256_equal": true,
+      "header_change": "start-date day -> 01",
+      "n_signals": 102,
+      "sfreq": 1200.0,
+      "duration_s": 670.0,
+      "events_by_trigger_code": {
+        "1": 440,
+        "2": 55,
+        "3": 55,
+        "255": 1
+      },
+      "baseline_code": 0
+    },
+    {
+      "bids": "sub-05/ieeg/sub-05_task-toneoddball_run-1_ieeg.edf",
+      "source": "data_ECoG/S5/ECoG_S5_part1.edf",
+      "sha256_source_file": "1af049c85671c578c60eb733923744c31bf593f57ea942a12886f6b8fdada573",
+      "sha256_bids_file": "ae31daab6dbbb0151db74d75e2a3f33723b268a9be038fc0e054833342c0f146",
+      "data_section_sha256_equal": true,
+      "header_change": "start-date day -> 01",
+      "n_signals": 102,
+      "sfreq": 1200.0,
+      "duration_s": 475.0,
+      "events_by_trigger_code": {
+        "1": 200,
+        "2": 25,
+        "3": 25
+      },
+      "baseline_code": 0
+    },
+    {
+      "bids": "sub-05/ieeg/sub-05_task-toneoddball_run-2_ieeg.edf",
+      "source": "data_ECoG/S5/ECoG_S5_part2.edf",
+      "sha256_source_file": "18140071a83e98d6bc4d03d790e8c8a3bc36d3f746d09d4889ac5afe8f96f805",
+      "sha256_bids_file": "12c67a197d169ed08acc263579cb6e93d734eab111668f6ac6934f28fc04b0f6",
+      "data_section_sha256_equal": true,
+      "header_change": "start-date day -> 01",
+      "n_signals": 102,
+      "sfreq": 1200.0,
+      "duration_s": 488.0,
+      "events_by_trigger_code": {
+        "1": 200,
+        "2": 25,
+        "3": 25,
+        "255": 2
+      },
+      "baseline_code": 0
+    },
+    {
+      "bids": "sub-06/ieeg/sub-06_task-toneoddball_ieeg.edf",
+      "source": "data_ECoG/S6/ECoG_S6.edf",
+      "sha256_source_file": "0f0ae0fa044d93d817c2e19dc7689b98670cbb42b1113597a6f8ac9996292226",
+      "sha256_bids_file": "2a4bd38f68e044ca8a240efacc184c1fedaa82d95eac266f8e0dd2b6b56b2910",
+      "data_section_sha256_equal": true,
+      "header_change": "start-date day -> 01",
+      "n_signals": 102,
+      "sfreq": 1200.0,
+      "duration_s": 415.0,
+      "events_by_trigger_code": {
+        "1": 200,
+        "2": 25,
+        "3": 25,
+        "255": 1
+      },
+      "baseline_code": 0
+    }
+  ],
+  "stimuli": [
+    {
+      "file": "stimuli/stimuli_ECoG_MMN/01standard_flat_yi5.wav",
+      "sha256": "141b502abd7d49d3ec4cf8b593a77b20fceba49cb8ad5b253b85d96665eb86b9"
+    },
+    {
+      "file": "stimuli/stimuli_ECoG_MMN/02deviant_cross_rise_yi2.wav",
+      "sha256": "79563c5fb52ad6d7e230986809224f5bd3c6f17e213793329f92dd64858c7e35"
+    },
+    {
+      "file": "stimuli/stimuli_ECoG_MMN/03deviant_within_flat_yi8.wav",
+      "sha256": "8f42da7be5c21e9ddb8c575698c1f3d2d914a647328dc64e7d36d232fee652da"
+    },
+    {
+      "file": "stimuli/stimuli_BehaviorContinumm/001_yi_rising_to_level_1.wav",
+      "sha256": "5497626b220737df24fd2e03de08ce3048ff255f777c52f9faa9815b8d2eaf48"
+    },
+    {
+      "file": "stimuli/stimuli_BehaviorContinumm/002_yi_rising_to_level_2.wav",
+      "sha256": "4cc67fe386f7770850ae701602372d601f007bf1315347b1676c0a59463e85d0"
+    },
+    {
+      "file": "stimuli/stimuli_BehaviorContinumm/003_yi_rising_to_level_3.wav",
+      "sha256": "7eba932ae433af84f28a27420e86d1a9c86984c080f4c644441d063494e396bb"
+    },
+    {
+      "file": "stimuli/stimuli_BehaviorContinumm/004_yi_rising_to_level_4.wav",
+      "sha256": "b86612a280158f1b294ebd4743ce6ec615e7138700ff00812097ed5b0bb458f1"
+    },
+    {
+      "file": "stimuli/stimuli_BehaviorContinumm/005_yi_rising_to_level_5.wav",
+      "sha256": "7be26379d398a3437ed2b9992c8c47d929614251d25f52edffbaec1abd1f8aab"
+    },
+    {
+      "file": "stimuli/stimuli_BehaviorContinumm/006_yi_rising_to_level_6.wav",
+      "sha256": "9bf7d025dd6acc4699d8fb984638798efc7ce37b69a6f08c0cbb0f0033bae492"
+    },
+    {
+      "file": "stimuli/stimuli_BehaviorContinumm/007_yi_rising_to_level_7.wav",
+      "sha256": "b3641579c348429375d736284dbe10fd9a5841e07afd9f75dd1705649b0ff8b1"
+    },
+    {
+      "file": "stimuli/stimuli_BehaviorContinumm/008_yi_level_to_falling_2.wav",
+      "sha256": "e24a498ca23bcaf91053d2eed01e0541806f95e8ee1e352ece62de577144cd25"
+    },
+    {
+      "file": "stimuli/stimuli_BehaviorContinumm/009_yi_level_to_falling_3.wav",
+      "sha256": "0493f93c0a4bb8bac3d08cc4f9a387d00c6206e7c2df7616dc68d8c60eb88ac6"
+    },
+    {
+      "file": "stimuli/stimuli_BehaviorContinumm/010_yi_level_to_falling_4.wav",
+      "sha256": "79cbeb9f32ee400f23b3ae193ee1722f07b4efd76780f028b6607bbe78fcfa26"
+    },
+    {
+      "file": "stimuli/stimuli_BehaviorContinumm/011_yi_level_to_falling_5.wav",
+      "sha256": "cdb31ec2b62c767acf81ea72e287b359f6198cb9395bc27951511e5b0385c0e7"
+    },
+    {
+      "file": "stimuli/stimuli_BehaviorContinumm/012_yi_level_to_falling_6.wav",
+      "sha256": "84780392a09db08498b0f08967182288f5c67e5ab9e769c4cb69e4fbe8cc988f"
+    },
+    {
+      "file": "stimuli/stimuli_BehaviorContinumm/013_yi_level_to_falling_7.wav",
+      "sha256": "2ae7b0aec5eb0533389840a7996bf13bd7ac4c102522a8b760422d67e37ee428"
+    }
+  ],
+  "not_redistributed": [
+    {
+      "file": "data_MRI.rar",
+      "md5_zenodo": "md5:79245b4404e53dfcb76519395c0c060a",
+      "reason": "MRI (FreeSurfer orig.mgz) / raw CT volumes: face reconstructable from the volume (render check); available from the source record"
+    },
+    {
+      "file": "data_CT.rar",
+      "md5_zenodo": "md5:2579995de3b473452817e9fd5b4fbc2b",
+      "reason": "MRI (FreeSurfer orig.mgz) / raw CT volumes: face reconstructable from the volume (render check); available from the source record"
+    }
+  ]
+}

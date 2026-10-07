@@ -1,0 +1,28 @@
+{
+  "TaskName": "toneoddball",
+  "TaskDescription": "Passive two-deviant auditory oddball with synthesized Mandarin /i/ syllables from a rising-level-falling (T2-T1-T4) tone continuum: token 5 (level tone T1) as frequent standard, tokens 2 (rising, T2; cross-category) and 8 (level, T1; within-category) as infrequent deviants of equal physical distance. Interstimulus interval (onset-onset) 1100 ms with 5% jitter; 500 trials (250 for S6); the patient watched a silent movie (Si et al. 2017).",
+  "Instructions": "Watch a silent movie; ignore the sounds (passive listening)",
+  "InstitutionName": "Epilepsy Center, Yuquan Hospital, Tsinghua University",
+  "InstitutionAddress": "Beijing, China",
+  "SamplingFrequency": 1200.0,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": {
+    "EDFPrefilterField": {
+      "Value": "HP:0.1Hz LP:0Hz notch HP:48Hz LP:52Hz",
+      "Description": "EDF header prefilter field as released: high-pass 0.1 Hz, no low-pass, 48-52 Hz notch"
+    }
+  },
+  "Manufacturer": "n/a",
+  "iEEGReference": "n/a (not documented in the release)",
+  "iEEGPlacementScheme": "Clinically determined subdural (surface) electrodes for seizure-focus localisation; channel names are amplifier inputs (Amp<k>-<n>) as released; the mapping to electrode contacts is not documented",
+  "ECOGChannelCount": 96,
+  "SEEGChannelCount": 0,
+  "EEGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 6,
+  "RecordingType": "continuous",
+  "RecordingDuration": 670.0,
+  "ElectricalStimulation": false,
+  "SourceFile": "data_ECoG.rar: data_ECoG/S4/ECoG_S4.edf"
+}

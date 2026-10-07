@@ -1,0 +1,18 @@
+{
+  "source_id": {
+    "Description": "Patient label in the release (S1..S6)"
+  },
+  "age": {
+    "Description": "Not included in the release (n/a)",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Not included in the release (n/a)"
+  },
+  "group": {
+    "Description": "Participant group",
+    "Levels": {
+      "epilepsy_patient": "medically intractable epilepsy patient with subdural electrodes (Yuquan Hospital, Tsinghua University)"
+    }
+  }
+}
