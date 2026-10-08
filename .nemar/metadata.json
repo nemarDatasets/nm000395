@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Categorical processing of Chinese lexical tone: ECoG auditory oddball in 6 epilepsy patients (Si, Zhou & Hong 2017)",
-  "description": "Electrocorticography (ECoG) recordings from six patients with medically intractable epilepsy who passively listened to a two-deviant auditory oddball sequence of synthesized Mandarin /i/ syllables. The standard was a level tone (T1), and the two deviants were a cross-category rising tone (T2) and a within-category level tone, each equidistant from the standard. The dataset supports investigation of the cortical network underlying categorical processing of Chinese lexical tone. It is organized in iEEG-BIDS without signal processing.",
-  "methods_description": "ECoG was recorded with subdural surface grids, placed by clinical need only, using a g.USBamp amplifier at 1200 Hz with a 0.1 Hz high-pass filter and a 50 Hz notch. Stimuli were presented in an oddball paradigm of 500 trials (250 for S6) with an onset-to-onset interval of 1100 ms and 5% jitter, while patients watched a silent movie. Triggers were recorded on a dedicated channel and decoded into events.",
+  "description": "Electrocorticography (ECoG) recordings from six patients with medically intractable epilepsy who passively listened to a two-deviant auditory oddball sequence of synthesized Mandarin /i/ syllables. The standard was a level tone (T1). The deviants were a cross-category rising tone (T2) and a within-category level tone (T1), each equally distant from the standard. The dataset supports investigation of the cortical network involved in categorical processing of Chinese lexical tone. It is reorganized in iEEG-BIDS without signal processing.",
+  "methods_description": "ECoG was recorded with subdural grid electrodes using a g.USBamp amplifier at 1200 Hz, with a 0.1 Hz high-pass filter and a 50 Hz notch. Four epidural electrodes on the skull served as ground and reference. Participants watched a silent movie while hearing 500 trials (250 for S6) with a 1100 ms onset-to-onset interval and 5% jitter. Electrode placement was determined by clinical need only. Presurgical MRI and post-implantation CT were acquired for localisation.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -27,7 +27,12 @@
   },
   "keywords": [
     {
-      "term": "electrocorticography"
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "ECoG"
     },
     {
       "term": "iEEG"
@@ -40,9 +45,6 @@
     },
     {
       "term": "auditory oddball"
-    },
-    {
-      "term": "mismatch negativity"
     },
     {
       "term": "Epilepsy",
@@ -79,8 +81,7 @@
     },
     {
       "funder_name": "German Research Foundation (DFG)",
-      "award_number": "TRR-169",
-      "award_title": "Crossmodal Learning"
+      "award_number": "TRR-169"
     },
     {
       "funder_name": "National Natural Science Foundation of China",
@@ -107,5 +108,5 @@
     ".wav",
     ".yml"
   ],
-  "source_hash": "95bbe9e190efd3c049aba8585f0e46c5093c5c77b541b8d6e6b5edddd3217f4f"
+  "source_hash": "ba210394b1f49acf69a0c2ace792ef5d2d8d23835a65d0ecbe8b53ada8edb4b2"
 }
