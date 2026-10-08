@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000395-blue)](https://doi.org/10.82901/nemar.nm000395)
+
 # Categorical processing of Chinese lexical tone (ECoG, auditory oddball)
 
 Electrocorticography (ECoG) from 6 patients with medically intractable epilepsy (S1-S6) listening passively to a
