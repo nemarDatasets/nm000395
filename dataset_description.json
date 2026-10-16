@@ -1,5 +1,5 @@
 {
-  "Name": "Categorical processing of Chinese lexical tone: ECoG auditory oddball in 6 epilepsy patients (Si, Zhou & Hong 2017)",
+  "Name": "Si-2017-cooperative-10.1073/pnas.1710752114",
   "BIDSVersion": "1.10.0",
   "DatasetType": "raw",
   "License": "CC-BY-4.0",
@@ -37,5 +37,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000395",
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
