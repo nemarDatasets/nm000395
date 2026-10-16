@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Categorical processing of Chinese lexical tone: ECoG auditory oddball in 6 epilepsy patients (Si, Zhou & Hong 2017)",
-  "description": "Electrocorticography (ECoG) recordings from six patients with medically intractable epilepsy who passively listened to a two-deviant auditory oddball sequence of synthesized Mandarin /i/ syllables. The design contrasts a cross-category deviant (rising tone) and a within-category deviant (level tone) that are equidistant from a level-tone standard. It supports investigation of cortical networks for categorical processing of Chinese lexical tone. Data are organized in iEEG-BIDS without signal processing.",
-  "methods_description": "ECoG was recorded with subdural grid electrodes using a g.USBamp amplifier at 1200 Hz with a 0.1 Hz high-pass and 50 Hz notch filter. Patients watched a silent movie while 500 oddball trials (250 for S6) were presented with an 1100 ms onset-to-onset interval and 5% jitter. Electrode placement was determined solely by clinical need.",
+  "description": "Electrocorticography (ECoG) recordings from six patients with medically intractable epilepsy who passively listened to a two-deviant auditory oddball sequence of synthesized Mandarin syllables. The paradigm used a tone continuum with a frequent standard, a cross-category deviant and a within-category deviant, allowing investigation of categorical processing of Chinese lexical tone. The data are reorganised into iEEG-BIDS without signal processing from a public Zenodo record.",
+  "methods_description": "ECoG was recorded from subdural grid electrodes with a g.USBamp amplifier at 1200 Hz (0.1 Hz high-pass, 50 Hz notch). Patients watched a silent movie while hearing 500 trials (250 for S6) of a Mandarin /i/ tone oddball with an 1100 ms onset-to-onset interval and 5% jitter. Electrode placement was determined by clinical need only, and events were decoded from a trigger channel.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -38,10 +38,10 @@
       "term": "iEEG"
     },
     {
-      "term": "auditory oddball"
+      "term": "lexical tone"
     },
     {
-      "term": "Chinese lexical tone"
+      "term": "auditory oddball"
     },
     {
       "term": "categorical perception"
