@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Categorical processing of Chinese lexical tone: ECoG auditory oddball in 6 epilepsy patients (Si, Zhou & Hong 2017)",
-  "description": "Electrocorticography (ECoG) recordings from six patients with medically intractable epilepsy who passively listened to a two-deviant auditory oddball sequence of synthesized Mandarin /i/ syllables. The standard was a level tone (T1). The deviants were a cross-category rising tone (T2) and a within-category level tone (T1), each equally distant from the standard. The dataset supports investigation of the cortical network involved in categorical processing of Chinese lexical tone. It is reorganized in iEEG-BIDS without signal processing.",
-  "methods_description": "ECoG was recorded with subdural grid electrodes using a g.USBamp amplifier at 1200 Hz, with a 0.1 Hz high-pass filter and a 50 Hz notch. Four epidural electrodes on the skull served as ground and reference. Participants watched a silent movie while hearing 500 trials (250 for S6) with a 1100 ms onset-to-onset interval and 5% jitter. Electrode placement was determined by clinical need only. Presurgical MRI and post-implantation CT were acquired for localisation.",
+  "title": "Si-2017-cooperative-10.1073/pnas.1710752114",
+  "description": "Electrocorticography (ECoG) recordings from six patients with medically intractable epilepsy who passively listened to a two-deviant auditory oddball sequence of synthesized Mandarin /i/ syllables. The design contrasts a cross-category deviant (rising tone) and a within-category deviant (level tone) that are equidistant from a level-tone standard. It supports investigation of cortical networks for categorical processing of Chinese lexical tone. Data are organized in iEEG-BIDS without signal processing.",
+  "methods_description": "ECoG was recorded with subdural grid electrodes using a g.USBamp amplifier at 1200 Hz with a 0.1 Hz high-pass and 50 Hz notch filter. Patients watched a silent movie while 500 oddball trials (250 for S6) were presented with an 1100 ms onset-to-onset interval and 5% jitter. Electrode placement was determined solely by clinical need.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -38,13 +38,13 @@
       "term": "iEEG"
     },
     {
-      "term": "lexical tone"
+      "term": "auditory oddball"
+    },
+    {
+      "term": "Chinese lexical tone"
     },
     {
       "term": "categorical perception"
-    },
-    {
-      "term": "auditory oddball"
     },
     {
       "term": "Epilepsy",
@@ -81,7 +81,8 @@
     },
     {
       "funder_name": "German Research Foundation (DFG)",
-      "award_number": "TRR-169"
+      "award_number": "TRR-169",
+      "award_title": "Crossmodal Learning"
     },
     {
       "funder_name": "National Natural Science Foundation of China",
@@ -108,5 +109,5 @@
     ".wav",
     ".yml"
   ],
-  "source_hash": "ba210394b1f49acf69a0c2ace792ef5d2d8d23835a65d0ecbe8b53ada8edb4b2"
+  "source_hash": "8efd46947b61223f590f80df021886fffbea00ec3e7ae259bc6a9a97917cecbc"
 }
