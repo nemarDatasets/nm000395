@@ -26,6 +26,8 @@ Tsinghua University, and patients gave written informed consent.
 - EDF, 1200 Hz, 96 ECoG inputs + 6 trigger inputs per file, named by amplifier input (`Amp<k>-<n>`,
   `Amp<k>-trigger`) as released. The mapping of inputs to electrode contacts is not part of the release.
 - EDF prefilter field: `HP:0.1Hz LP:0Hz notch HP:48Hz LP:52Hz` (hardware high-pass 0.1 Hz and 50 Hz notch).
+- `Amp6-1`..`Amp6-4` sit at the int16 limits (+-8001.8 uV at the header scale) for 32.5-82.1% of samples in every
+  recording except sub-03 (all other channels: at most 4.5%). Channels above 10% are marked `bad` in `channels.tsv`.
 - `*_events.tsv`: pulses of the `Amp1-trigger` channel, decoded to digital codes (1, 2, 3; occasionally 255).
   The release does not document which code is which stimulus. Code 1 accounts for about 80% of pulses (the
   standard). The stimulus files are numbered `01standard_flat_yi5`, `02deviant_cross_rise_yi2` and

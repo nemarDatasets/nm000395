@@ -1,8 +1,8 @@
 name	type	units	low_cutoff	high_cutoff	notch	sampling_frequency	status	status_description
-Amp6-1	ECOG	µV	0.1	n/a	50	1200.0	good	n/a
-Amp6-2	ECOG	µV	0.1	n/a	50	1200.0	good	n/a
-Amp6-3	ECOG	µV	0.1	n/a	50	1200.0	good	n/a
-Amp6-4	ECOG	µV	0.1	n/a	50	1200.0	good	n/a
+Amp6-1	ECOG	µV	0.1	n/a	50	1200.0	bad	at the int16 limits (±8001.8 µV) for 67.7% of samples
+Amp6-2	ECOG	µV	0.1	n/a	50	1200.0	bad	at the int16 limits (±8001.8 µV) for 69.4% of samples
+Amp6-3	ECOG	µV	0.1	n/a	50	1200.0	bad	at the int16 limits (±8001.8 µV) for 69.6% of samples
+Amp6-4	ECOG	µV	0.1	n/a	50	1200.0	bad	at the int16 limits (±8001.8 µV) for 70.9% of samples
 Amp6-5	ECOG	µV	0.1	n/a	50	1200.0	good	n/a
 Amp6-6	ECOG	µV	0.1	n/a	50	1200.0	good	n/a
 Amp6-7	ECOG	µV	0.1	n/a	50	1200.0	good	n/a
